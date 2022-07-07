@@ -37,36 +37,65 @@ class _notifikasiState extends State<notifikasi> {
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
-        child: Row(
+        child: Column(
           children: [
-            Container(
-              height: 500,
-              child: ListView(scrollDirection: Axis.horizontal, children: [
-                Padding(
-                  padding:
-                  EdgeInsets.symmetric(horizontal: 0, vertical: 10),
-                  child: InkWell(
-                    onTap: () {},
-                    child: Container(
-                      alignment: Alignment.center,
-                      width: 90,
-                      height: 30,
-                      decoration: BoxDecoration(
-                          border:
-                          Border.all(width: 1, color: Colors.green),
-                          borderRadius: BorderRadius.circular(10),
-                          color: Colors.white),
-                      child: Row(
-                          children: [
-                            Image(image: AssetImage("assest/508.png")),
-                            Text("Semua",
-                                style: (GoogleFonts.poppins().copyWith(
-                                    fontSize: 12, color: "6B6B6B".toColor()))),
-                          ]),
+            Row(
+              children: [
+                Container(
+                  height: 500,
+                  child: ListView(scrollDirection: Axis.horizontal, children: [
+                    Padding(
+                      padding:
+                      EdgeInsets.symmetric(horizontal: 0, vertical: 10),
+                      child: InkWell(
+                        onTap: () {},
+                        child: Container(
+                          alignment: Alignment.center,
+                          width: 90,
+                          height: 30,
+                          decoration: BoxDecoration(
+                              border:
+                              Border.all(width: 1, color: Colors.green),
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.white),
+                          child: Row(
+                              children: [
+                                Image(image: AssetImage("assest/508.png")),
+                                Text("Semua",
+                                    style: (GoogleFonts.poppins().copyWith(
+                                        fontSize: 12, color: "6B6B6B".toColor()))),
+                              ]),
+                        ),
+                      ),
                     ),
-                  ),
+                    SizedBox(width: 10),
+                    Padding(
+                      padding:
+                      EdgeInsets.symmetric(horizontal: 0, vertical: 10),
+                      child: InkWell(
+                        onTap: () {},
+                        child: Container(
+                          alignment: Alignment.center,
+                          width: 90,
+                          height: 30,
+                          decoration: BoxDecoration(
+                              border:
+                              Border.all(width: 1, color: Colors.green),
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.white),
+                          child: Row(
+                              children: [
+                                Image(image: AssetImage("assest/carts.png")),
+                                Text("Semua",
+                                    style: (GoogleFonts.poppins().copyWith(
+                                        fontSize: 12, color: "6B6B6B".toColor()))),
+                              ]),
+                        ),
+                      ),
+                    ),
+                  ]),
                 ),
-              ]),
+              ],
             ),
           ],
         ),

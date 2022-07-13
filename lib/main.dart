@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:notifikasisaya/notifikasi.dart';
 
+import 'flashsale.dart';
+import 'notifikasipayment.dart';
+import 'notifikasipengiriman.dart';
+import 'notifikasipromo.dart';
+import 'notifikasipromokode.dart';
+
 void main() {
   runApp(const MyApp());
 }

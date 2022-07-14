@@ -2,18 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:supercharged/supercharged.dart';
 
-class paymentberhasil extends StatelessWidget {
-  const paymentberhasil({Key? key}) : super(key: key);
+class notifikasisampai extends StatelessWidget {
+  const notifikasisampai({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Center(
-        child: Container(
+      child: Column(children: [
+        Container(
           color: Colors.white,
           width: MediaQuery.of(context).size.width,
-          height: 100,
+          height: 75,
           child: Container(
-            child: Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
+            child:
+                Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
               Container(
                 padding: EdgeInsets.fromLTRB(0, 5, 0, 0),
                 alignment: Alignment.topCenter,
@@ -30,7 +32,7 @@ class paymentberhasil extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    child: Text("Pembayaran Berhasil",
+                    child: Text("Pesanan Anda Telah Sampai",
                         style: GoogleFonts.poppins().copyWith(
                             fontSize: 11,
                             fontWeight: FontWeight.bold,
@@ -72,9 +74,54 @@ class paymentberhasil extends StatelessWidget {
                   ),
                 ],
               ),
+                  SizedBox(height: 20),
             ]),
           ),
         ),
-      );
+        SizedBox(height: 20),
+        Container(
+          padding: EdgeInsets.fromLTRB(20, 0, 0, 0),
+          height: 50,
+          child: Column(
+            children: [
+              Row(children: [
+                Text(
+                  "Tanggal: ",
+                  style: GoogleFonts.poppins().copyWith(
+                      fontSize: 10,
+                      fontWeight: FontWeight.w300,
+                      color: '6F6F6F'.toColor()),
+                ),
+                SizedBox(width: 95),
+                Text(
+                  "Penerima: ",
+                  style: GoogleFonts.poppins().copyWith(
+                      fontSize: 10,
+                      fontWeight: FontWeight.w300,
+                      color: '6F6F6F'.toColor()),
+                ),
+              ]),
+              Row( children: [
+                Text(
+                  "2015-03-04, 15:44",
+                  style: GoogleFonts.poppins().copyWith(
+                      fontSize: 10,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black),
+                ),
+                SizedBox(width: 55),
+                Text(
+                  "RISKA VIVI, PALEMBANG",
+                  style: GoogleFonts.poppins().copyWith(
+                      fontSize: 10,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black),
+                ),
+              ]),
+            ],
+          ),
+        ),
+      ]),
+    );
   }
 }

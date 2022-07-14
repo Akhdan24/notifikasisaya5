@@ -10,7 +10,7 @@ class notifikasipengiriman extends StatelessWidget {
     return Center(
         child: Container(
           color: Colors.white,
-          width: 360,
+          width: MediaQuery.of(context).size.width,
           height: 145,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
@@ -20,6 +20,7 @@ class notifikasipengiriman extends StatelessWidget {
                 height: 95,
                 child: Row(children: [
                   Container(
+                    padding: EdgeInsets.fromLTRB(0, 5, 0, 0),
                     alignment: Alignment.topCenter,
                     child: Image.asset(
                       'assets/bayi.png',
@@ -75,7 +76,7 @@ class notifikasipengiriman extends StatelessWidget {
               ),
               // SizedBox(height: 5),
               Container(
-                width: 360,
+                width: MediaQuery.of(context).size.width,
                 height: 30,
                 child: RaisedButton(
                   shape: RoundedRectangleBorder(

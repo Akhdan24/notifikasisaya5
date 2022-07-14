@@ -12,13 +12,14 @@ class notifikasipromo extends StatelessWidget {
         children: [
           Container(
             color: Colors.white,
-            width: 360,
+            width: MediaQuery.of(context).size.width,
             height: 205,
             child: Container(
               child: Column(
                 children: [
                   Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     Container(
+                      padding: EdgeInsets.fromLTRB(0, 5, 0, 0),
                       alignment: Alignment.topCenter,
                       child: Image.asset(
                         'assets/2475.png',

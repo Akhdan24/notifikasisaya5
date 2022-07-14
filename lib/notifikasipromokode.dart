@@ -12,14 +12,17 @@ class notifikasipromokode extends StatelessWidget {
           child: Column(
               children: [
             Container(
-              width: 360,
-              height: 141,
+              width: MediaQuery.of(context).size.width,
+              height: 140,
               color: Colors.white,
               child: Container(
+                width: 360,
+                height: 130,
                 child: Column(
                   children: [
                     Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
                       Container(
+                        padding: EdgeInsets.fromLTRB(0, 5, 0, 0),
                         alignment: Alignment.topCenter,
                         child: Image.asset(
                           'assets/2475.png',
@@ -42,7 +45,7 @@ class notifikasipromokode extends StatelessWidget {
                           ),
                           SizedBox(height: 5),
                           Container(
-                            width: 310,
+                            width: 270,
                             child: Text(
                                 "Et omnia in potestate nostra esse natura liber, libera, libere valeant; sed illis non est",
                                 maxLines: 2,
@@ -95,7 +98,7 @@ class notifikasipromokode extends StatelessWidget {
                           ),
                         ),
                         Container(
-                          width: 72,
+                          width: 71,
                           height: 30,
                           child: FlatButton(
                             shape: RoundedRectangleBorder(
@@ -104,13 +107,12 @@ class notifikasipromokode extends StatelessWidget {
                               bottomRight: Radius.circular(5),
                             )),
                             color: "AAD7DE".toColor(),
-                            textColor: Colors.white,
                             onPressed: () {},
                             child: Row(
                               children: [
                                 Icon(Icons.content_copy_outlined,
                                     color: Colors.white, size: 11),
-                                SizedBox(width: 5),
+                                SizedBox(width: 4),
                                 Text('Salin',
                                     style: GoogleFonts.poppins().copyWith(
                                         fontSize: 10,

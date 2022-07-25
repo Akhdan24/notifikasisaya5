@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:notifikasisaya/notifikasi.dart';
+import 'package:notifikasisaya/pengaturannotifikasi.dart';
 
 import 'flashsale.dart';
 import 'notifikasipayment.dart';
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: notifikasi(),
     );

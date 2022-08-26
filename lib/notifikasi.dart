@@ -361,7 +361,7 @@ class _notifikasiState extends State<notifikasi> {
                             style: GoogleFonts.poppins().copyWith(
                                 fontSize: 11,
                                 fontWeight: FontWeight.w300,
-                                color: "AAD7DE".toColor())),
+                                color: "F47A7E".toColor())),
                       ],
                     ),
                   ),
@@ -455,124 +455,6 @@ class _notifikasiState extends State<notifikasi> {
                                   : SizedBox())
                               .toList()),
                     ),
-                    // Container(
-                    //   padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
-                    //   height: 487,
-                    //   child: ListView(
-                    //       scrollDirection: Axis.vertical,
-                    //       clipBehavior: Clip.hardEdge,
-                    //       physics: BouncingScrollPhysics(),
-                    //       children: output
-                    //           .map((item) => (item.status == "Info")
-                    //               ? notifikasiinfoupdate(
-                    //                   title: item.title,
-                    //                   image: item.image,
-                    //                   deskripsi: item.deskripsi,
-                    //                   status: item.status,
-                    //                   jam: item.jam,
-                    //                 )
-                    //               : SizedBox())
-                    //           .toList()),
-                    // ),
-                    // Container(
-                    //   padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
-                    //   height: 487,
-                    //   child: ListView(
-                    //       scrollDirection: Axis.vertical,
-                    //       clipBehavior: Clip.hardEdge,
-                    //       physics: BouncingScrollPhysics(),
-                    //       children: output
-                    //           .map((item) => (item.status == "Belanja")
-                    //               ? notifikasipengiriman(
-                    //                   title: item.title,
-                    //                   image: item.image,
-                    //                   deskripsi: item.deskripsi,
-                    //                   status: item.status,
-                    //                   jam: item.jam,
-                    //                 )
-                    //               : SizedBox())
-                    //           .toList()),
-                    // ),
-                    // Container(
-                    //   padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
-                    //   height: 487,
-                    //   child: ListView(
-                    //       scrollDirection: Axis.vertical,
-                    //       clipBehavior: Clip.hardEdge,
-                    //       physics: BouncingScrollPhysics(),
-                    //       children: output
-                    //           .map((item) => (item.status == "PPOB")
-                    //               ? notifikasippobpayment(
-                    //                   title: item.title,
-                    //                   image: item.image,
-                    //                   deskripsi: item.deskripsi,
-                    //                   status: item.status,
-                    //                   jam: item.jam,
-                    //                 )
-                    //               : SizedBox())
-                    //           .toList()),
-                    // ),
-                    // Container(
-                    //   padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
-                    //   height: 487,
-                    //   child: ListView(
-                    //       scrollDirection: Axis.vertical,
-                    //       clipBehavior: Clip.hardEdge,
-                    //       physics: BouncingScrollPhysics(),
-                    //       children: output
-                    //           .map((item) => (item.status == "Promo")
-                    //               ? notifikasipromokode(
-                    //                   title: item.title,
-                    //                   image: item.image,
-                    //                   deskripsi: item.deskripsi,
-                    //                   status: item.status,
-                    //                   jam: item.jam,
-                    //                   copyController: item.copyController,
-                    //                 )
-                    //               : SizedBox())
-                    //           .toList()),
-                    // ),
-                    // Container(
-                    //   padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
-                    //   height: 487,
-                    //   child: ListView(
-                    //       scrollDirection: Axis.vertical,
-                    //       clipBehavior: Clip.hardEdge,
-                    //       physics: BouncingScrollPhysics(),
-                    //       children: output
-                    //           .map((item) => (item.status == "Belanja")
-                    //               ? notifikasisampai(
-                    //                   title: item.title,
-                    //                   image: item.image,
-                    //                   deskripsi: item.deskripsi,
-                    //                   status: item.status,
-                    //                   jam: item.jam,
-                    //                   datetime: item.datetime,
-                    //                   kotanama: item.kotanama,
-                    //                 )
-                    //               : SizedBox())
-                    //           .toList()),
-                    // ),
-                    // Container(
-                    //   padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
-                    //   height: 487,
-                    //   child: ListView(
-                    //       scrollDirection: Axis.vertical,
-                    //       clipBehavior: Clip.hardEdge,
-                    //       physics: BouncingScrollPhysics(),
-                    //       children: output
-                    //           .map((item) => (item.status == "Promo")
-                    //               ? notifikasipromo(
-                    //                   title: item.title,
-                    //                   image: item.image,
-                    //                   deskripsi: item.deskripsi,
-                    //                   status: item.status,
-                    //                   jam: item.jam,
-                    //                   banner: item.banner,
-                    //                 )
-                    //               : SizedBox())
-                    //           .toList()),
-                    // ),
                   ]),
             ),
           ],

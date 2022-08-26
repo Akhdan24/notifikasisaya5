@@ -39,7 +39,7 @@ class _notifikasipromokodeState extends State<notifikasipromokode> {
               padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
               width: MediaQuery.of(context).size.width,
               height: 140,
-              color: Colors.white,
+              color: widget.isRead == true ? Colors.white : 'FFF1F1'.toColor(),
               child: Container(
                 width: 360,
                 height: 130,
@@ -157,7 +157,7 @@ class _notifikasipromokodeState extends State<notifikasipromokode> {
                                   topRight: Radius.circular(5),
                                   bottomRight: Radius.circular(5),
                                 )),
-                            color: "AAD7DE".toColor(),
+                            color: "F47A7E".toColor(),
                             onPressed: () {
                               Clipboard.setData(
                                   ClipboardData(text: widget.copyController));

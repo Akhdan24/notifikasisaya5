@@ -38,7 +38,7 @@ class _notifikasiinfoupdateState extends State<notifikasiinfoupdate> {
       child: Column(children: [
         Container(
           padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
-          color: widget.isRead == true ? Colors.white : 'F1FDFF'.toColor(),
+          color: widget.isRead == true ? Colors.white : 'FFF1F1'.toColor(),
           width: MediaQuery.of(context).size.width,
           height: 135,
           child: Column(
@@ -111,7 +111,7 @@ class _notifikasiinfoupdateState extends State<notifikasiinfoupdate> {
                 child: RaisedButton(
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(5)),
-                  color: "2196F3".toColor(),
+                  color: "F47A7E".toColor(),
                   textColor: Colors.white,
                   onPressed: () async {
                     if (Platform.isAndroid) {

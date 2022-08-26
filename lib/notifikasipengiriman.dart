@@ -99,7 +99,7 @@ class notifikasipengiriman extends StatelessWidget {
                   child: RaisedButton(
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(5)),
-                    color: "AAD7DE".toColor(),
+                    color: "F47A7E".toColor(),
                     // background
                     textColor: Colors.white,
                     // foreground

@@ -69,7 +69,7 @@ class _flashsaleState extends State<flashsale> {
           onTap: () {},
           child: Ink(
             padding: EdgeInsets.only(top: 10, left: 20, bottom: 10),
-            color: (widget.isRead == true) ? Colors.white : 'F1FDFF'.toColor(),
+            color: (widget.isRead == true) ? Colors.white : 'FFF1F1'.toColor(),
             width: MediaQuery.of(context).size.width,
             height: 125,
             child: Column(
@@ -157,11 +157,6 @@ class _flashsaleState extends State<flashsale> {
                           Icon(Icons.bolt_outlined, color: Colors.white, size: 9),
                           SizedBox(width: 5),
                           buildTime(),
-                          // Text('00 : 20 : 45',
-                          //     style: GoogleFonts.poppins().copyWith(
-                          //         fontWeight: FontWeight.w300,
-                          //         fontSize: 8,
-                          //         color: Colors.white)),
                         ]),
                   ),
                 ]),

@@ -26,7 +26,7 @@ class notifikasiinfopengumuman extends StatelessWidget {
           onTap: () {},
           child: Ink(
             padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
-            color: isRead == true ? Colors.white : 'F1FDFF'.toColor(),
+            color: isRead == true ? Colors.white : 'FFF1F1'.toColor(),
             width: MediaQuery.of(context).size.width,
             height: 100,
             child: Container(
